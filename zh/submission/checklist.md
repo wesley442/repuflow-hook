@@ -2,7 +2,7 @@
 
 ## 必填链接
 
-- [ ] GitHub 仓库：
+- [x] GitHub 仓库：https://github.com/wesley442/repuflow-hook
 - [x] Demo 视频：`demo-output/repuflow-demo.mp4`
 - [ ] 最终 X submission post：
 - [ ] 项目 X 账号：

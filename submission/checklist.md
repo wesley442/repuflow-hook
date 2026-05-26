@@ -2,7 +2,7 @@
 
 ## Required Links
 
-- [ ] GitHub repository:
+- [x] GitHub repository: https://github.com/wesley442/repuflow-hook
 - [x] Demo video: `demo-output/repuflow-demo.mp4`
 - [ ] Final X submission post:
 - [ ] Project X account:
