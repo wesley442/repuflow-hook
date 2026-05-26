@@ -6,7 +6,7 @@
 链：X Layer  
 核心协议：Uniswap v4 Hooks
 
-![RepuFlow Hook Architecture](../../assets/whitepaper-architecture.svg)
+![RepuFlow Hook Architecture](https://raw.githubusercontent.com/wesley442/repuflow-hook/main/assets/whitepaper-architecture.png)
 
 ## 摘要
 
@@ -121,7 +121,7 @@ protectionValue += max(finalFee - baseFee, 0)
 
 这让 LP 保护不只是一个概念，而是可以在前端和部署记录中看到的状态。
 
-![Day 3 Deployment Screenshot](../../demo-output/day3-x-post-clean.png)
+![Day 3 Deployment Screenshot](https://raw.githubusercontent.com/wesley442/repuflow-hook/main/demo-output/day3-x-post-clean.png)
 
 ## 5. 流量分类与信誉分
 
@@ -151,7 +151,7 @@ totalProtectionBps = 80
 
 这表示 toxic flow 相对基础费率贡献了额外 LP protection 价值。对评审和 LP 来说，这个指标能直接说明 Hook 不是只给交易者定价，也在显式表达 LP 的风险补偿。
 
-![Deployment Card](../../demo-output/day3-deployment-card.png)
+![Deployment Card](https://raw.githubusercontent.com/wesley442/repuflow-hook/main/demo-output/day3-deployment-card.png)
 
 ## 7. 链上部署
 
@@ -199,7 +199,7 @@ Hook 地址挖矿：
 | Good agent swap | `0x6e5d75614fc01bccda73e42630a5a3d5922a087e58f6f6cb17b505e98bd14398` |
 | Toxic flow swap | `0x485e9480935041e5d6ca3f22faf50993f4ecf14bea3a3cea876e82986e2f0d79` |
 
-![Evidence Card](../../demo-output/day3-evidence-card.png)
+![Evidence Card](https://raw.githubusercontent.com/wesley442/repuflow-hook/main/demo-output/day3-evidence-card.png)
 
 ## 9. 前端与用户体验
 
