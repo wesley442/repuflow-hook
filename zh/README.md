@@ -99,6 +99,7 @@ MVP 初始值：
 
 ## 中文文档
 
+- [白皮书](docs/repuflow-whitepaper.md)
 - [实施计划](docs/implementation-plan.md)
 - [Hook 机制设计](docs/mechanism.md)
 - [Demo 脚本](docs/demo-script.md)

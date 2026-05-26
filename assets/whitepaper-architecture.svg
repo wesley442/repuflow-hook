@@ -1,0 +1,72 @@
+<svg width="1440" height="820" viewBox="0 0 1440 820" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1440" height="820" fill="#101413"/>
+  <path d="M0 120H1440M0 260H1440M0 400H1440M0 540H1440M0 680H1440M180 0V820M360 0V820M540 0V820M720 0V820M900 0V820M1080 0V820M1260 0V820" stroke="#1f2c27" stroke-width="1"/>
+  <rect x="54" y="44" width="1332" height="732" rx="14" fill="#151b19" stroke="#2f473d" stroke-width="2"/>
+  <text x="92" y="105" fill="#33f3a5" font-family="Inter, Arial, sans-serif" font-size="36" font-weight="800">RepuFlow Hook Architecture</text>
+  <text x="92" y="142" fill="#a8b7af" font-family="Inter, Arial, sans-serif" font-size="19">Reputation-aware dynamic fees for Uniswap v4 pools on X Layer</text>
+
+  <defs>
+    <marker id="arrow" markerWidth="14" markerHeight="14" refX="12" refY="7" orient="auto">
+      <path d="M2 2L12 7L2 12" stroke="#33f3a5" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+    <style>
+      .card { fill: #1b2220; stroke: #3a574c; stroke-width: 2; }
+      .card2 { fill: #17211f; stroke: #245f48; stroke-width: 2; }
+      .title { fill: #eef7f2; font-family: Inter, Arial, sans-serif; font-size: 23px; font-weight: 800; }
+      .body { fill: #a8b7af; font-family: Inter, Arial, sans-serif; font-size: 16px; }
+      .mono { fill: #33f3a5; font-family: "JetBrains Mono", Menlo, monospace; font-size: 15px; font-weight: 700; }
+      .small { fill: #789087; font-family: Inter, Arial, sans-serif; font-size: 14px; }
+      .arrow { stroke: #33f3a5; stroke-width: 3; marker-end: url(#arrow); }
+    </style>
+  </defs>
+
+  <rect class="card" x="92" y="230" width="250" height="148" rx="10"/>
+  <text class="title" x="120" y="278">User / AI Agent</text>
+  <text class="body" x="120" y="315">Submits a swap with</text>
+  <text class="body" x="120" y="342">wallet history and flow</text>
+  <text class="mono" x="120" y="365">Good / Normal / Toxic</text>
+
+  <rect class="card2" x="430" y="210" width="304" height="188" rx="10"/>
+  <text class="title" x="458" y="258">RepuFlowV4Hook</text>
+  <text class="mono" x="458" y="294">beforeSwap()</text>
+  <text class="body" x="458" y="326">Calculates dynamic LP fee</text>
+  <text class="body" x="458" y="353">and returns override flag</text>
+  <text class="mono" x="458" y="378">finalFee = base + flow - rep</text>
+
+  <rect class="card" x="824" y="230" width="250" height="148" rx="10"/>
+  <text class="title" x="852" y="278">Uniswap v4 Pool</text>
+  <text class="body" x="852" y="315">Executes swap with</text>
+  <text class="body" x="852" y="342">dynamic fee pool mode</text>
+  <text class="mono" x="852" y="365">fee = 0x800000</text>
+
+  <rect class="card2" x="1160" y="210" width="188" height="188" rx="10"/>
+  <text class="title" x="1188" y="258">afterSwap()</text>
+  <text class="body" x="1188" y="294">Settles reputation</text>
+  <text class="body" x="1188" y="321">and records LP</text>
+  <text class="body" x="1188" y="348">protection value</text>
+  <text class="mono" x="1188" y="378">+80 bps</text>
+
+  <line class="arrow" x1="342" y1="304" x2="418" y2="304"/>
+  <line class="arrow" x1="734" y1="304" x2="812" y2="304"/>
+  <line class="arrow" x1="1074" y1="304" x2="1148" y2="304"/>
+
+  <rect class="card" x="314" y="510" width="286" height="150" rx="10"/>
+  <text class="title" x="342" y="558">ReputationRegistry</text>
+  <text class="body" x="342" y="596">Stores address score</text>
+  <text class="body" x="342" y="623">from 0 to 100</text>
+  <text class="mono" x="342" y="648">scoreDelta: +2 / -8</text>
+
+  <rect class="card" x="840" y="510" width="286" height="150" rx="10"/>
+  <text class="title" x="868" y="558">LpProtectionVault</text>
+  <text class="body" x="868" y="596">Tracks surcharge value</text>
+  <text class="body" x="868" y="623">created by toxic flow</text>
+  <text class="mono" x="868" y="648">totalProtectionBps = 80</text>
+
+  <path d="M582 398V492" class="arrow"/>
+  <path d="M1254 398C1254 470 1144 486 1016 504" class="arrow"/>
+  <path d="M516 510C530 464 542 430 556 398" stroke="#6a8178" stroke-width="2" stroke-dasharray="8 8"/>
+  <path d="M984 510C984 462 1000 420 1045 378" stroke="#6a8178" stroke-width="2" stroke-dasharray="8 8"/>
+
+  <rect x="92" y="702" width="1256" height="42" rx="8" fill="#0f1715" stroke="#2b4038"/>
+  <text class="small" x="116" y="728">Deployment: X Layer chain 196 | Hook 0xCA3F...80C0 | PoolId 0x0d13...1631 | PoolManager 0x360e...fb32</text>
+</svg>

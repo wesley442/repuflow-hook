@@ -109,6 +109,7 @@ Fee bounds:
 ## Chinese Docs
 
 - [中文说明](zh/README.md)
+- [中文白皮书](zh/docs/repuflow-whitepaper.md)
 - [中文实施计划](zh/docs/implementation-plan.md)
 - [中文 Hook 机制设计](zh/docs/mechanism.md)
 - [中文 Demo 脚本](zh/docs/demo-script.md)
