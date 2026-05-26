@@ -54,6 +54,13 @@
 - [x] 部署方式
 - [x] 评审亮点
 
+## 白皮书完成情况
+
+- [x] 中文白皮书已完成：`zh/docs/repuflow-whitepaper.md`
+- [x] 架构图已添加：`assets/whitepaper-architecture.png`
+- [x] 截图已使用 GitHub Raw 图片链接嵌入
+- [x] GitHub 推送后图片显示已验证
+
 ## 视频完成情况
 
 - [x] Demo 视频已生成：`demo-output/repuflow-demo.mp4`

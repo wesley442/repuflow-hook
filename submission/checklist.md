@@ -54,6 +54,13 @@
 - [x] How to deploy
 - [x] Judging highlights
 
+## Whitepaper Completion
+
+- [x] Chinese whitepaper written: `zh/docs/repuflow-whitepaper.md`
+- [x] Architecture image added: `assets/whitepaper-architecture.png`
+- [x] Screenshots embedded with GitHub Raw image URLs
+- [x] Image rendering verified after GitHub push
+
 ## Video Completion
 
 - [x] Demo video generated: `demo-output/repuflow-demo.mp4`

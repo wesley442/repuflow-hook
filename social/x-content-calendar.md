@@ -50,7 +50,7 @@ Should every swap pay the same fee if some flow helps the pool while other flow 
 With v4 Hooks, the pool can answer at execution time.
 ```
 
-## Day 2: 2026-05-26 - Ready to Post
+## Day 2: 2026-05-26 - Posted
 
 ```text
 Day 2 update: RepuFlow now has a Uniswap v4 Hook adapter.

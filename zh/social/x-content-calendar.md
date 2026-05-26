@@ -54,7 +54,7 @@ Should every swap pay the same fee if some flow helps the pool while other flow 
 With v4 Hooks, the pool can answer at execution time.
 ```
 
-## Day 2：2026-05-26 - 待发布
+## Day 2：2026-05-26 - 已发布
 
 中文意图：展示已接入 Uniswap v4 Hook adapter，并强调 beforeSwap/afterSwap 真实入口。
 
